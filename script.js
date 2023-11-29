@@ -4,7 +4,7 @@
 
 
 function fetchDataFromAPI(callback) {
-    setTimeout(function () {
+    setTimeout(() => {
       const data = { name: "John", age: 30 };
       callback(data);
     }, 1000);
